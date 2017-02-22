@@ -16,16 +16,18 @@ public class OverloadingExample {
 		System.out.println("inside method a...");
 	}
 	
-	/*public static void main(String[] args) {
+	public static void main(String[] args) {
 		OverloadingExample ob = new OverloadingExample();
 		//method1((int)10.0);
 		ob.method1();
 		ob.method1(10);
 		ob.method1(20.0,30.0);
 		ob.method1(10,10,10,10);
-	}*/
+		
+		System.out.println("Bhava changes kele bagh....");
+	}
 	
-	
+/*	
 	final synchronized public static void main(String... a) {
 		OverloadingExample ob = new OverloadingExample();
 		//method1((int)10.0);
@@ -35,5 +37,5 @@ public class OverloadingExample {
 		ob.method1(10,10,10,10);
 	}
 
-	
+*/	
 }
